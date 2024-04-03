@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/*header*/
+header nav {
+  min-height: 56px;
+  padding: 0 32px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e6e6e6;
+  background-color: white;
+}
+
+.navbar-left img {
+  height: 52px;
+  width: 189px;
+}
+
+.navbar-center,
+.navbar-right {
+  display: flex;
+  gap: 15px;
+}
+
+header > nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+nav a:hover {
+  color: rgb(33, 197, 142);
+}
+
+/*section*/
+section {
+  display: flex;
+  flex-direction: column;
+  width: 860px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+boxs h1 {
+  width: 100%;
+}
+boxs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box-left {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 380px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px black;
+}
+
+.pic-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 5px;
+}
+
+.google-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px 10px;
+  background: rgb(25, 143, 181);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 143, 181, 1) 16%,
+    rgba(11, 192, 231, 1) 39%,
+    rgba(0, 212, 255, 1) 67%,
+    rgba(216, 236, 240, 1) 83%
+  );
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 5px;
+}
+
+.round-icon {
+  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-icon a {
+  color: black;
+}
+
+.pic-right {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.pic-right form {
+  display: flex;
+  padding: 5px 5px;
+}
+
+.box2 {
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px black;
+}
+
+.text-THB,
+.box2-top form {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.box2-top input {
+  border-radius: 8px 8px 8px 8px;
+  border: 2px solid rgb(33, 197, 142);
+  padding: 4px 4px;
+  color: rgb(33, 197, 142);
+  background-color: white;
+  font-weight: bold;
+}
+
+.box2-top input:hover {
+  background-color: rgb(229, 236, 233);
+}
+
+.box2-top form {
+  gap: 6px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.box2-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.box2-bottom input {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px 8px 8px 8px;
+  padding: 5px;
+  background-color: rgb(33, 197, 142);
+  border: none;
+  box-shadow: 0px 3px 0px;
+}
+
+.box2-bottom input:hover {
+  background-color: bisque;
+}
